@@ -21,12 +21,11 @@ const Design = ({name, items}:Props) => {
 
             <div className="grid grid-cols-2 gap-5">
                 {items.map((item, i) => (
-                    <div className="relative h-150">
+                    <div className="relative h-100" key={i}>
                         <Image 
                             src={item}
                             alt="P7"
                             fill
-                            objectFit="contain"
                         />
                     </div>
                 ))}
