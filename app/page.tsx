@@ -4,6 +4,9 @@ import { Skills } from "@/components/skills"
 import { Experience } from "@/components/experience"
 import { Education } from "@/components/education"
 import { Software } from "@/components/software"
+import Design from "@/components/mydes"
+import SecondHead from "@/components/philos"
+import Holder from "@/components/holder"
 
 export default function Home() {
   return (
@@ -15,11 +18,15 @@ export default function Home() {
 
       <Header />
       <Hero />
+      <SecondHead />  
       <div className="container mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <Skills />
           <Experience />
         </div>
+        <Holder />
+
+
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto mt-12">
           <Education />
           <Software />
