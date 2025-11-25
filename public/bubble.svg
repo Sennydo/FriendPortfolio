@@ -1,0 +1,21 @@
+<svg
+  width="300"
+  height="160"
+  viewBox="30 25 230 105"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M70 110
+       C30 110 30 60 70 60
+       C80 30 130 25 150 55
+       C180 35 230 50 230 85
+       C260 90 260 125 230 130
+       H90"
+    fill="none"
+    stroke="#ffbadf"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+
