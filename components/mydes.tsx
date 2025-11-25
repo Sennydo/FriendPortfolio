@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useState } from "react";
 
 const projDat = [
     "/p7.png",
