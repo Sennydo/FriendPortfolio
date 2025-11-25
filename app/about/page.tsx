@@ -1,4 +1,9 @@
+import { Education } from "@/components/education"
+import { Experience } from "@/components/experience"
 import { Header } from "@/components/header"
+import Projects from "@/components/projects"
+import { Skills } from "@/components/skills"
+import { Software } from "@/components/software"
 
 export default function AboutPage() {
   return (
@@ -13,27 +18,26 @@ export default function AboutPage() {
       <section className="py-24 px-4">
         <div className="container mx-auto max-w-4xl">
           <h1 className="font-serif text-5xl md:text-6xl text-primary text-center mb-16 italic">
-            My Design Philosophy
+            Kasturi Jana
           </h1>
-
-          <div className="bg-card/50 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-lg">
-            <p className="text-lg md:text-xl leading-relaxed text-foreground text-center">
-              I see <span className="font-bold">design</span> as a way to express{" "}
-              <span className="font-bold">emotions</span> through <span className="font-bold">form</span>,{" "}
-              <span className="font-bold">texture</span>, and <span className="font-bold">detail</span>. My work
-              explores the <span className="font-bold">balance</span> between{" "}
-              <span className="font-bold">structure</span> and <span className="font-bold">fluidity</span>, allowing
-              materials to tell stories inspired by <span className="font-bold">people</span>,{" "}
-              <span className="font-bold">culture</span>, and everyday experiences. I believe design should go beyond
-              aesthetics — it should evoke feeling, <span className="font-bold">empower individuality</span>, and create
-              a <span className="font-bold">sense of purpose</span>. Each piece I create aims to connect meaningfully
-              with the wearer and their world.
-            </p>
-
-            <p className="text-right mt-8 font-serif text-xl md:text-2xl italic text-foreground">~ Kasturi Jana</p>
-          </div>
         </div>
       </section>
+
+            <div className="container mx-auto px-4">
+              <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <Skills />
+                <Experience />
+              </div>
+            </div>
+
+      
+              <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto mt-12">
+                <Education />
+                <Software />
+              </div>
+      <div className="container px-5 mx-auto my-15">
+        <Projects />
+      </div>
     </main>
   )
 }

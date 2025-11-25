@@ -1,3 +1,5 @@
+import Projects from "./projects"
+
 export function Software() {
   const software = [
     { name: "Photoshop", color: "bg-blue-500" },
@@ -12,12 +14,25 @@ export function Software() {
     { name: "Bengali", color: "bg-green-400" },
   ]
 
+  const names = [
+    "/icons/icons8-photoshop.svg",
+    "/icons/icons8-adobe-indesign.svg",
+    "/icons/icons8-illustrator.svg",
+    "icons/clo.png"
+  ]
+
   return (
     <div className="space-y-8">
       <div className="space-y-6">
         <h2 className="font-bold text-3xl text-foreground uppercase tracking-tight">Softwares</h2>
         <div className="flex gap-4">
-          {software.map((sw, index) => (
+          {
+            names.map((item, idx) => (
+              <img key={idx} src={item} />
+            ))
+          }
+          {/*
+                    {software.map((sw, index) => (
             <div
               key={index}
               className={`w-16 h-16 rounded-full ${sw.color} flex items-center justify-center text-white font-bold text-xs shadow-lg`}
@@ -25,6 +40,8 @@ export function Software() {
               {sw.name.substring(0, 2)}
             </div>
           ))}
+          */ }
+
         </div>
       </div>
 

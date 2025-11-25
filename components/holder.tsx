@@ -4,7 +4,7 @@ import Design from "./mydes";
 const Holder = () => {
 
     return(
-        <div className="flex flex-col gap-15">
+        <div className="flex flex-col gap-15 py-2">
             <h1 className="text-4xl text-center underline">My Projects</h1>
             <Design
                 name={"Industry Internship Project"} 
