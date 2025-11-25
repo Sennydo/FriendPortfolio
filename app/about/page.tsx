@@ -15,13 +15,15 @@ export default function AboutPage() {
 
       <Header />
 
-      <section className="py-24 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <h1 className="font-serif text-5xl md:text-6xl text-primary text-center mb-16 italic">
-            Kasturi Jana
-          </h1>
-        </div>
-      </section>
+      {/*
+            <section className="py-24 px-4">
+              <div className="container mx-auto max-w-4xl">
+                <h1 className="font-serif text-5xl md:text-6xl text-primary text-center mb-16 italic">
+                  Kasturi Jana
+                </h1>
+              </div>
+            </section>
+      */}
 
             <div className="container mx-auto px-4">
               <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">

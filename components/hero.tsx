@@ -22,7 +22,7 @@ export function Hero() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="image-fade-popup w-full max-w-md h-[500px]">
               <img
-                src="/professional-woman-portrait.png"
+                src="/perspic.png"
                 alt="Kasturi Jana"
                 className="w-full h-full object-contain object-bottom"
               />

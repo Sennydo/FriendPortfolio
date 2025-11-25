@@ -3,12 +3,7 @@ import { Card } from "@/components/ui/card"
 
 export function ContactSection() {
   const contactInfo = [
-    {
-      icon: Mail,
-      label: "Email",
-      value: "@k.a.s.turi",
-      link: "mailto:kasturi.jana@nift.ac.in",
-    },
+
     {
       icon: Mail,
       label: "Email",
@@ -18,7 +13,7 @@ export function ContactSection() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+91-7680942637",
+      value: "+917680942637",
       link: "tel:+917680942637",
     },
     {
