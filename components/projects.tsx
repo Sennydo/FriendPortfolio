@@ -43,7 +43,7 @@ const Projects = () => {
                     projList.map((item, idx) => (
                         <div className="aspect-video py-5" key={idx}>
                         <a href={item.redirect}>
-                            <h1 className="text-center italic text-accent text-3xl">{item.name}</h1>
+                            <h1 className="text-center italic text-3xl">{item.name}</h1>
                             <div className="relative h-full w-full">
                                 <Image src={item.links} alt="ProjPic" fill className="object-contain"/>
                             </div>
